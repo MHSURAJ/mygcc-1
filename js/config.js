@@ -5,10 +5,11 @@
 //  Asli security firestore.rules se aati hai.
 // ============================================================
 export const firebaseConfig = {
-  apiKey: "PASTE_YOUR_API_KEY",
-  authDomain: "PASTE_YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_YOUR_PROJECT_ID",
-  storageBucket: "PASTE_YOUR_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "PASTE_YOUR_SENDER_ID",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyCbRxSJEaijtgMxDSkMGY_fRvFIMt1QFaY",
+  authDomain: "gurukrupa-classes-001.firebaseapp.com",
+  projectId: "gurukrupa-classes-001",
+  storageBucket: "gurukrupa-classes-001.firebasestorage.app",
+  messagingSenderId: "1082472617827",
+  appId: "1:1082472617827:web:d8241cf99c7ffce4e92556",
+  measurementId: "G-HR46Y7GKT3"
 };
