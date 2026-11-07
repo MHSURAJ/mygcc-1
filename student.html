@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfcff">
+  <meta name="robots" content="noindex">
+  <title>Student</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="checking" data-role="student">
+  <div class="shell">
+    <div id="app">
+      <header class="topbar">
+        <span class="brand"><img class="brand-logo" src="logo.png" width="39" height="48" alt=""><span data-class-name>Gurukrupa Coaching Classes</span></span>
+        <div class="user">
+          <span class="avatar" id="avatar" aria-hidden="true"></span>
+          <button type="button" class="btn-secondary" id="logout-btn">Sign out</button>
+        </div>
+      </header>
+
+      <main class="welcome">
+        <h1 id="greeting">Hi</h1>
+        <p>You are signed in as a student.</p>
+
+        <section class="account" aria-labelledby="account-title">
+          <h2 id="account-title">Your account</h2>
+          <dl>
+            <dt>Name</dt>
+            <dd id="acc-name">-</dd>
+            <dt>Email</dt>
+            <dd id="acc-email">-</dd>
+            <dt>Role</dt>
+            <dd id="acc-role">-</dd>
+          </dl>
+        </section>
+
+        <p class="later">More sections will show up here as the portal grows.</p>
+      </main>
+    </div>
+
+    <div class="error-box" id="error-box" hidden>
+      <h1>Could not load your account</h1>
+      <p>Check your internet connection and refresh the page. If it keeps happening, sign out and sign in again.</p>
+      <button type="button" class="btn-secondary" id="error-logout">Sign out</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
